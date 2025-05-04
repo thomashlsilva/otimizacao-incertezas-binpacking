@@ -1,6 +1,6 @@
 # Bin Packing com e sem Incerteza – Otimização sob Condições de Incertezas
 
-Este repositório contém a implementação de dois modelos de otimização para resolver o problema de **bin packing** (empacotamento de itens), desenvolvido como parte das atividades da disciplina **Otimização sob Condições de Incertezas** do CEFET-MG.
+Este repositório contém a implementação de dois modelos de otimização para resolver o problema de **bin packing** (empacotamento de itens), desenvolvido como parte das atividades da disciplina **Otimização sob Condições de Incertezas** do CEFET-MG. Mais informações podem ser encontradas na apresentação disponível em PDF.
 
 ## 🎯 Objetivo do Problema
 
