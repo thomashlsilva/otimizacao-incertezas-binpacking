@@ -2,7 +2,7 @@
 
 Este repositório contém a implementação de dois modelos de otimização para resolver o problema de **bin packing** (empacotamento de itens), desenvolvido como parte das atividades da disciplina **Otimização sob Condições de Incertezas** do CEFET-MG. Mais informações podem ser encontradas na apresentação disponível em PDF.
 
-## 🎯 Objetivo do Problema
+## Objetivo do Problema
 
 O problema de *bin packing* consiste em alocar um conjunto de itens com pesos específicos em um número mínimo de "bins" (recipientes), respeitando a capacidade máxima de cada bin. Trata-se de um problema clássico de otimização combinatória com aplicações em logística, corte de materiais e computação em nuvem.
 
@@ -13,7 +13,7 @@ Neste trabalho, abordamos dois cenários distintos:
 
 ---
 
-## 📁 Estrutura dos Códigos
+## Estrutura dos Códigos
 
 ### 1. `binpacking_nominal.py` — Modelo Nominal
 
@@ -48,7 +48,7 @@ Estende o modelo anterior com proteção contra incertezas nos pesos dos itens, 
 
 ---
 
-## ⚙️ Ferramenta de Otimização
+## Ferramenta de Otimização
 
 * **Solver:** IBM CPLEX Optimizer
 * **Interface utilizada:** `docplex.mp` (Modeling for Python)
@@ -56,7 +56,7 @@ Estende o modelo anterior com proteção contra incertezas nos pesos dos itens, 
 
 ---
 
-## 📊 Resultados Obtidos
+## Resultados Obtidos
 
 | Modelo                  | Bins Utilizados | Variáveis Totais                | Restrições Totais |
 | ----------------------- | --------------- | ------------------------------- | ----------------- |
@@ -69,7 +69,7 @@ Estende o modelo anterior com proteção contra incertezas nos pesos dos itens, 
 
 ---
 
-## 🧠 Conclusões
+## Conclusões
 
 * A modelagem robusta é essencial quando há incerteza nos parâmetros do problema, especialmente em aplicações sensíveis como logística, onde subestimar pesos pode inviabilizar a operação.
 * O custo da robustez é visível: **mais bins são utilizados** para garantir viabilidade em todos os cenários esperados.
@@ -77,7 +77,7 @@ Estende o modelo anterior com proteção contra incertezas nos pesos dos itens, 
 
 ---
 
-## 📚 Referências
+## Referências
 
 * Bertsimas, D., & Sim, M. (2004). *The Price of Robustness*. Operations Research.
 * Mingozzi, A., et al. (1999). *An exact algorithm for the two-dimensional finite bin packing problem*.
